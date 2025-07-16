@@ -135,7 +135,7 @@ It will generate a short summary of `video_session_log.txt` using your local LLM
 
 ---
 
-## 🔐 Requirements (From Your `pip list`)
+## 🔐 Requirements 
 
 Here are the core packages and versions you are using:
 
@@ -181,22 +181,4 @@ Here are the core packages and versions you are using:
 
 ---
 
-## 👤 Author
-
-Built with ❤️ by \[Your Name]
-📬 Contact: \[[you@example.com](mailto:you@example.com)]
-
----
-
-## 📝 License
-
-MIT License — feel free to use, improve, and share.
-
-```
-
----
-
-### ✅ Bonus: Want a `requirements.txt` from your environment?
-
-Let me know and I’ll generate it for you directly from your package list.
 ```
