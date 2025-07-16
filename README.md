@@ -26,23 +26,22 @@ Real-time multi-face recognition system using **YOLO-NAS-M** (from Deci's SuperG
 | 💬 LLM Summary | Summarize logs using local LLM (Gemma via Ollama) |
 
 ---
-
 ## 🗂 Project Structure
 
-```
 
-face\_recognition\_project/
+
+face_recognition_project/
 ├── app.py                  # 📱 Main Streamlit GUI app
 ├── utils.py                # 🔧 Core logic for detection, recognition
-├── identify.py             # 🧪 Standalone test script
-├── face\_data.py            # 📦 KnownFace class for pickle loading
-├── register\_facesvedio.py  # ➕ Register faces from video or webcam
-├── summary.py              # 🧠 LLM-based log summarization (Gemma)
-├── known\_faces.pkl         # 🤝 Saved face embeddings
-├── video\_session\_log.txt   # 📝 Logs of face detections (video)
-├── live\_session\_log.txt    # 📝 Logs of face detections (live)
+├── identify.py             # 🧪 Standalone test script for face identification
+├── face_data.py            # 📦 KnownFace class for loading/saving face embeddings (pickle)
+├── register_facesvedio.py  # ➕ Register faces using video or webcam feed
+├── summary.py              # 🧠 Log summarization using LLM (Gemma)
+├── known_faces.pkl         # 🤝 Serialized face embeddings database
+├── video_session_log.txt   # 📝 Log file for video-based detections
+├── live_session_log.txt    # 📝 Log file for live webcam detections
 ├── weights/
-│   └── yolo\_nas\_m.pt       # 🎯 Custom YOLO-NAS-M (face detection)
+│   └── yolo_nas_m.pt       # 🎯 Offline YOLO-NAS-M weights for face detection
 
 ````
 
